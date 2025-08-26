@@ -1,5 +1,4 @@
 import { ServiceSection } from "@/components/ServiceSection";
-import { Music } from "lucide-react";
 import googleLogo from "@/assets/google-logo.png";
 import facebookLogo from "@/assets/facebook-logo-blue.png";
 import instagramLogo from "@/assets/instagram-logo.png";
@@ -25,7 +24,7 @@ const Index = () => {
             </div>
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
-                <Music className="w-10 h-10 text-black" />
+                <img src="/lovable-uploads/7201f28d-0d62-46d7-8efd-3ea2bad73d01.png" alt="TikTok" className="w-10 h-10" />
               </div>
               <span className="text-sm font-thin text-text-muted">TikTok</span>
             </div>
