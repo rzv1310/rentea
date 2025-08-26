@@ -75,7 +75,7 @@ const Index = () => {
           "Top 3 rezultate Google pentru o procedură chirurgicală, la alegere"
         ]}
         price="4000 lei/lună"
-        additionalInfo="Rezultat garantat până la 31 decembrie 2025.\nReducere 50% până la 31 decembrie 2025."
+        additionalInfo="Rezultat garantat până la 31 decembrie 2025. Reducere 50% până la 31 decembrie 2025."
         isDark={false}
       />
 

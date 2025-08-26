@@ -68,9 +68,7 @@ export const ServiceSection = ({
                   <div className={`text-sm font-thin mt-2 ${
                     isDark ? 'text-text-muted-light' : 'text-text-muted'
                   }`}>
-                    {additionalInfo.split('\n').map((line, index) => (
-                      <div key={index} className={index > 0 ? 'mt-1' : ''}>{line}</div>
-                    ))}
+                    {additionalInfo}
                   </div>
                 )}
               </div>
