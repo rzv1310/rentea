@@ -102,7 +102,11 @@ const Index = () => {
           "Bonus: tur virtual 360° al clinicii pentru o experiență inedită a pacientului"
         ]}
         price="2000 lei/lună"
-        additionalInfo="+ buget Facebook recomandat: 120 lei/zi"
+        additionalInfo={
+          <>
+            + buget Facebook recomandat: <br className="md:hidden" />120 lei/zi
+          </>
+        }
         isDark={true}
       />
 
@@ -138,7 +142,11 @@ const Index = () => {
           "Copywriting pentru rate de conversie ridicate"
         ]}
         price="2000 lei/lună"
-        additionalInfo="+ buget Google recomandat: 200 lei/zi × 5 zile/săptămână"
+        additionalInfo={
+          <>
+            + buget Google recomandat: <br className="md:hidden" />200 lei/zi × 5 zile/săptămână
+          </>
+        }
         isDark={true}
       />
 
