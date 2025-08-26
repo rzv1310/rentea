@@ -73,7 +73,7 @@ const Index = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-thin text-text-dark mb-8 leading-tight">
-            Online Marketing<br />
+            Online Marketing <br />
             <a 
               href="https://renteaclinique.ro/" 
               target="_blank" 
