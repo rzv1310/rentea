@@ -75,7 +75,7 @@ const Index = () => {
           <h1 className="text-4xl md:text-6xl font-thin text-text-dark mb-8 leading-tight">
             Online Marketing<br />
             <a 
-              href="https://renteaclinique.ro/" 
+              href="https://rentéaclinique.ro" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-border-orange font-thin hover:opacity-80 transition-opacity"
