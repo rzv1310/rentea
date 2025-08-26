@@ -1,5 +1,6 @@
 import { ServiceSection } from "@/components/ServiceSection";
-import { Facebook, Instagram, Youtube, Search } from "lucide-react";
+import { Facebook, Instagram, Youtube } from "lucide-react";
+import googleLogo from "@/assets/google-logo.png";
 
 const Index = () => {
   return (
@@ -27,8 +28,8 @@ const Index = () => {
               <span className="text-sm text-text-muted">TikTok</span>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-[#4285f4] via-[#ea4335] via-[#fbbc05] to-[#34a853] rounded-full flex items-center justify-center mb-2">
-                <Search className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
+                <img src={googleLogo} alt="Google" className="w-10 h-10" />
               </div>
               <span className="text-sm text-text-muted">Google</span>
             </div>
