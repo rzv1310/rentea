@@ -15,36 +15,36 @@ const Index = () => {
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
                 <img src={facebookLogo} alt="Facebook" className="w-10 h-10" />
               </div>
-              <span className="text-sm text-text-muted">Facebook</span>
+              <span className="text-sm font-thin text-text-muted">Facebook</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
                 <img src={instagramLogo} alt="Instagram" className="w-10 h-10" />
               </div>
-              <span className="text-sm text-text-muted">Instagram</span>
+              <span className="text-sm font-thin text-text-muted">Instagram</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
                 <img src={tiktokLogo} alt="TikTok" className="w-10 h-10" />
               </div>
-              <span className="text-sm text-text-muted">TikTok</span>
+              <span className="text-sm font-thin text-text-muted">TikTok</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
                 <img src={googleLogo} alt="Google" className="w-10 h-10" />
               </div>
-              <span className="text-sm text-text-muted">Google</span>
+              <span className="text-sm font-thin text-text-muted">Google</span>
             </div>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-bold font-heading text-text-dark mb-8 leading-tight">
+          <h1 className="text-4xl md:text-6xl font-thin text-text-dark mb-8 leading-tight">
             Oferta Online Marketing<br />
             <span className="text-text-dark font-thin">
               renteaclinique.ro
             </span>
           </h1>
           
-          <p className="text-xl text-text-muted max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl font-thin text-text-muted max-w-3xl mx-auto leading-relaxed">
             Soluții complete de marketing digital pentru clinici medicale private. 
             Creștem vizibilitatea și numărul de pacienți prin strategii personalizate.
           </p>

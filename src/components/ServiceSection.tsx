@@ -24,25 +24,31 @@ export const ServiceSection = ({
             : 'bg-card text-card-foreground'
         }`}>
           <CardContent className="p-0">
-            <h2 className={`text-3xl md:text-4xl font-bold font-heading mb-6 ${
+            <h2 className={`text-3xl md:text-4xl font-thin mb-6 ${
               isDark ? 'text-text-light' : 'text-text-dark'
             }`}>
               {title}
             </h2>
             
             <div className="space-y-6">
-              <p className={`text-lg leading-relaxed ${
+              <p className={`text-lg font-thin leading-relaxed ${
                 isDark ? 'text-text-muted-light' : 'text-text-muted'
               }`}>
                 {description}
               </p>
               
-              <div className="bg-gradient-hero p-6 rounded-lg text-white">
-                <div className="text-2xl font-bold font-heading">
+              <div className={`p-6 rounded-lg border ${
+                isDark ? 'border-border-dark' : 'border-border'
+              }`}>
+                <div className={`text-2xl font-thin ${
+                  isDark ? 'text-text-light' : 'text-text-dark'
+                }`}>
                   {price}
                 </div>
                 {additionalInfo && (
-                  <div className="text-sm mt-2 opacity-90">
+                  <div className={`text-sm font-thin mt-2 ${
+                    isDark ? 'text-text-muted-light' : 'text-text-muted'
+                  }`}>
                     {additionalInfo}
                   </div>
                 )}
