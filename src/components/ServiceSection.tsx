@@ -65,10 +65,14 @@ export const ServiceSection = ({
                   {price}
                 </div>
                 {additionalInfo && (
-                  <div className={`text-sm font-thin mt-2 ${
+                  <div className={`text-sm font-thin mt-2 space-y-1 ${
                     isDark ? 'text-text-muted-light' : 'text-text-muted'
                   }`}>
-                    {additionalInfo}
+                    {additionalInfo.split('. ').map((line, index, array) => (
+                      <div key={index}>
+                        {line}{index < array.length - 1 && !line.endsWith('.') ? '.' : ''}
+                      </div>
+                    ))}
                   </div>
                 )}
               </div>
