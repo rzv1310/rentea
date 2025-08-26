@@ -55,11 +55,11 @@ const Index = () => {
         title="Social Media"
         description="Creăm o prezență online puternică pentru clinica dumneavoastră prin vizualuri unice și campanii eficiente."
         services={[
-          "Crearea de vizualuri profesionale personalizate",
-          "Creșterea organică a numărului de followeri", 
+          "Crearea de vizualuri unice, personalizate",
+          "Creșterea numărului de followeri", 
           "Campanii promovate pe Facebook, Instagram și TikTok",
-          "Editare video profesională pentru conținut atractiv",
-          "Bonus: tur virtual al clinicii pentru o experiență completă"
+          "Ședințe foto / video in clinică",
+          "Bonus: tur virtual 360° al clinicii pentru o experiență inedită a pacientului"
         ]}
         price="2000 lei/lună"
         additionalInfo="+ buget Facebook recomandat: 120 lei/zi"
