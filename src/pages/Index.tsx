@@ -77,6 +77,7 @@ const Index = () => {
         price="4000 lei/lună"
         additionalInfo="Rezultat garantat până la 31 decembrie 2025. Reducere 50% până la 31 decembrie 2025."
         isDark={false}
+        forceBlackText={true}
       />
 
       {/* Google Ads Section - Dark Background */}

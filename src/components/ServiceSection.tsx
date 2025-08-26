@@ -7,6 +7,7 @@ interface ServiceSectionProps {
   price: string;
   additionalInfo?: string;
   isDark?: boolean;
+  forceBlackText?: boolean;
 }
 
 export const ServiceSection = ({ 
@@ -15,7 +16,8 @@ export const ServiceSection = ({
   services,
   price, 
   additionalInfo, 
-  isDark = false 
+  isDark = false,
+  forceBlackText = false
 }: ServiceSectionProps) => {
   return (
     <section className={`py-20 px-6 ${isDark ? 'bg-section-dark' : 'bg-section-light'}`}>
@@ -27,14 +29,14 @@ export const ServiceSection = ({
         }`}>
           <CardContent className="p-0">
             <h2 className={`text-3xl md:text-4xl font-thin mb-6 ${
-              isDark ? 'text-text-light' : 'text-text-dark'
+              forceBlackText ? 'text-black' : (isDark ? 'text-text-light' : 'text-text-dark')
             }`}>
               {title}
             </h2>
             
             <div className="space-y-6">
               <p className={`text-lg font-thin leading-relaxed ${
-                isDark ? 'text-text-muted-light' : 'text-text-muted'
+                forceBlackText ? 'text-black' : (isDark ? 'text-text-muted-light' : 'text-text-muted')
               }`}>
                 {description}
               </p>
@@ -43,10 +45,10 @@ export const ServiceSection = ({
                 <ul className="space-y-2">
                   {services.map((service, index) => (
                     <li key={index} className={`flex items-start text-lg font-thin leading-relaxed ${
-                      isDark ? 'text-text-muted-light' : 'text-text-muted'
+                      forceBlackText ? 'text-black' : (isDark ? 'text-text-muted-light' : 'text-text-muted')
                     }`}>
                       <span className={`mr-3 mt-1 ${
-                        isDark ? 'text-text-light' : 'text-text-dark'
+                        forceBlackText ? 'text-black' : (isDark ? 'text-text-light' : 'text-text-dark')
                       }`}>•</span>
                       <span dangerouslySetInnerHTML={{
                         __html: service.replace(/^Bonus:/g, '<span class="text-white font-thin">Bonus:</span>')
@@ -60,13 +62,13 @@ export const ServiceSection = ({
                 isDark ? 'border-border-dark' : 'border-border'
               }`}>
                 <div className={`text-2xl font-thin ${
-                  isDark ? 'text-text-light' : 'text-text-dark'
+                  forceBlackText ? 'text-black' : (isDark ? 'text-text-light' : 'text-text-dark')
                 }`}>
                   {price}
                 </div>
                 {additionalInfo && (
                   <div className={`text-sm font-thin mt-2 space-y-1 ${
-                    isDark ? 'text-text-muted-light' : 'text-text-muted'
+                    forceBlackText ? 'text-black' : (isDark ? 'text-text-muted-light' : 'text-text-muted')
                   }`}>
                     {additionalInfo.split('. ').map((line, index, array) => (
                       <div key={index}>
