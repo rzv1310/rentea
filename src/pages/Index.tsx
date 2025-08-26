@@ -167,7 +167,11 @@ const Index = () => {
               
               <div>
                 <h3 className="text-2xl font-[200] md:font-thin text-black mb-4">Garanție:</h3>
-                <p className="text-lg font-[200] md:font-thin text-black">Returnăm toate fee-urile noastre înapoi (6000 lei/lună x 4 luni = 24.000 lei) dacă până la 31 decembrie 2025 nu am produs încasări care să acopere costurile.</p>
+                <p className="text-lg font-[200] md:font-thin text-black">
+                  Returnăm toate fee-urile noastre înapoi <br className="md:hidden" />
+                  (6000 lei/lună x 4 luni = 24.000 lei) <br className="md:hidden" />
+                  dacă până la 31 decembrie 2025 nu am produs încasări care să acopere costurile.
+                </p>
               </div>
             </div>
           </div>
