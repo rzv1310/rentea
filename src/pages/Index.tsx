@@ -72,7 +72,7 @@ const Index = () => {
         description="Optimizarea pentru motoarele de căutare vă poziționează în fruntea rezultatelor când pacienții caută serviciile medicale de care au nevoie."
         services={[
           "Poziționare în Top 3 Google Maps pentru căutări locale",
-          "Top 3 rezultate organice pentru o procedură chirurgicală, la alegere"
+          "Top 3 rezultate Google pentru o procedură chirurgicală, la alegere"
         ]}
         price="300 EUR/lună fiecare pachet"
         additionalInfo="Google Maps + Rezultate organice disponibile separat sau împreună"
