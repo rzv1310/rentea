@@ -13,7 +13,7 @@ const Index = () => {
           <div className="border border-border-orange px-4 py-2 rounded">
             <a 
               href="tel:0742702982" 
-              className="text-text-light font-medium hover:opacity-80 transition-opacity flex items-center gap-2"
+              className="text-text-light font-light hover:opacity-80 transition-opacity flex items-center gap-2"
             >
               <Phone size={18} className="text-text-light" />
               0742 702 982
