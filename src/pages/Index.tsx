@@ -6,7 +6,7 @@ import instagramLogo from "@/assets/instagram-logo.png";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen select-none">
       {/* Header */}
       <header className="bg-section-dark py-4 px-6 sticky top-0 z-50">
         <div className="max-w-6xl mx-auto flex justify-end">
