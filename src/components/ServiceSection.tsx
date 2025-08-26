@@ -22,7 +22,7 @@ export const ServiceSection = ({
   return (
     <section className={`py-20 px-6 ${isDark ? 'bg-section-dark' : 'bg-section-light'}`}>
       <div className="max-w-4xl mx-auto">
-        <Card className={`p-8 border-2 border-border-orange shadow-card ${
+        <Card className={`p-8 border border-border-orange shadow-card ${
           isDark 
             ? 'bg-card-dark text-card-dark-foreground' 
             : 'bg-card text-card-foreground'
