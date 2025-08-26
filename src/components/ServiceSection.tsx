@@ -48,7 +48,9 @@ export const ServiceSection = ({
                       <span className={`mr-3 mt-1 ${
                         isDark ? 'text-text-light' : 'text-text-dark'
                       }`}>•</span>
-                      {service}
+                      <span dangerouslySetInnerHTML={{
+                        __html: service.replace(/^Bonus:/g, '<span class="text-white font-thin">Bonus:</span>')
+                      }} />
                     </li>
                   ))}
                 </ul>
