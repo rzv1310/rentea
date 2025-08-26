@@ -95,6 +95,30 @@ const Index = () => {
         additionalInfo="+ buget Google recomandat: 200 lei/zi × 5 zile/săptămână"
         isDark={true}
       />
+
+      {/* Summary Section - Orange Border */}
+      <section className="py-20 px-6 bg-background">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-white border-4 border-orange-500 rounded-lg p-8 shadow-lg">
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-2xl font-semibold text-black mb-4">Costuri totale:</h3>
+                <p className="text-lg text-black">aprox. 2500 eur/lună.</p>
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-semibold text-black mb-4">Target:</h3>
+                <p className="text-lg text-black">Obiectivul este ca începând din luna 2 să aducem pacienți de minim 5-6000 euro în clinică, astfel încât marketingul să se plătească singur.</p>
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-semibold text-black mb-4">Garanție:</h3>
+                <p className="text-lg text-black">Returnăm toate fee-urile noastre înapoi (6000 lei/lună x 4 luni = 24.000 lei) dacă până la 31 decembrie 2025 nu am produs încasări care să acopere costurile.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
