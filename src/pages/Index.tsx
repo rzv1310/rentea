@@ -1,7 +1,7 @@
 import { ServiceSection } from "@/components/ServiceSection";
 import googleLogo from "@/assets/google-logo.png";
 import tiktokLogo from "@/assets/tiktok-logo.png";
-import facebookLogo from "@/assets/facebook-logo.png";
+import facebookLogo from "@/assets/facebook-logo-blue.png";
 import instagramLogo from "@/assets/instagram-logo.png";
 
 const Index = () => {
