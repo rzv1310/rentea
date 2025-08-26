@@ -53,7 +53,7 @@ const Index = () => {
       {/* Social Media Section - Dark Background */}
       <ServiceSection
         title="Social Media"
-        description="Creăm o prezență online puternică pentru clinica dumneavoastră prin vizualuri unice și campanii eficiente."
+        description="Creăm o prezență online puternică a brandului Rentéa prin vizualuri unice și campanii eficiente."
         services={[
           "Crearea de vizualuri unice, personalizate",
           "Creșterea numărului de followeri", 
