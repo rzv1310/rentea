@@ -55,8 +55,8 @@ const Index = () => {
         title="Social Media"
         description="Creăm o prezență online puternică a brandului Rentéa prin vizualuri unice și campanii eficiente."
         services={[
-          "Crearea de vizualuri unice, personalizate",
-          "Creșterea numărului de followeri", 
+          "Crearea de imagini personalizate",
+          "Creșterea numărului de followeri",
           "Campanii promovate pe Facebook, Instagram și TikTok",
           "Ședințe foto / video in clinică",
           "Bonus: tur virtual 360° al clinicii pentru o experiență inedită a pacientului"
