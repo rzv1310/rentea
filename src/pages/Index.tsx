@@ -145,6 +145,21 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Contact Footer */}
+      <section className="bg-section-dark py-8 px-6">
+        <div className="max-w-6xl mx-auto flex justify-center">
+          <div className="border border-border-orange px-6 py-3 rounded">
+            <a 
+              href="tel:0742702982" 
+              className="text-text-light font-light hover:opacity-80 transition-opacity flex items-center gap-2 text-lg"
+            >
+              <Phone size={20} className="text-text-light" />
+              0742 702 982
+            </a>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
