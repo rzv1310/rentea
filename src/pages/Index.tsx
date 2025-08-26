@@ -1,6 +1,7 @@
 import { ServiceSection } from "@/components/ServiceSection";
-import { Facebook, Instagram, Youtube } from "lucide-react";
+import { Facebook, Instagram } from "lucide-react";
 import googleLogo from "@/assets/google-logo.png";
+import tiktokLogo from "@/assets/tiktok-logo.png";
 
 const Index = () => {
   return (
@@ -22,8 +23,8 @@ const Index = () => {
               <span className="text-sm text-text-muted">Instagram</span>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-[#000000] rounded-full flex items-center justify-center mb-2">
-                <Youtube className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
+                <img src={tiktokLogo} alt="TikTok" className="w-10 h-10" />
               </div>
               <span className="text-sm text-text-muted">TikTok</span>
             </div>
