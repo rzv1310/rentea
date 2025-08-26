@@ -45,7 +45,7 @@ const Index = () => {
           </h1>
           
           <p className="text-xl font-thin text-text-muted max-w-3xl mx-auto leading-relaxed">
-            Marketing digital pentru clinici medicale. Creștem vizibilitatea și numărul de pacienți prin strategii personalizate.
+            Marketing digital pentru clinici medicale. Creștem vizibilitatea și numărul de pacienți.
           </p>
         </div>
       </section>
