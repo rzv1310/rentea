@@ -120,7 +120,7 @@ const Index = () => {
       {/* Summary Section - Orange Border */}
       <section className="py-20 px-6 bg-background">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-white border-4 border-orange-500 rounded-lg p-8 shadow-lg">
+          <div className="bg-white border border-orange-500 rounded-lg p-8 shadow-lg">
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-semibold text-black mb-4">Costuri totale:</h3>
