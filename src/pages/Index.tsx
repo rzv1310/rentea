@@ -1,7 +1,8 @@
 import { ServiceSection } from "@/components/ServiceSection";
-import { Facebook, Instagram } from "lucide-react";
 import googleLogo from "@/assets/google-logo.png";
 import tiktokLogo from "@/assets/tiktok-logo.png";
+import facebookLogo from "@/assets/facebook-logo.png";
+import instagramLogo from "@/assets/instagram-logo.png";
 
 const Index = () => {
   return (
@@ -11,14 +12,14 @@ const Index = () => {
         <div className="max-w-6xl mx-auto text-center">
           <div className="mb-12 flex justify-center items-center space-x-8">
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-[#1877f2] rounded-full flex items-center justify-center mb-2">
-                <Facebook className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
+                <img src={facebookLogo} alt="Facebook" className="w-10 h-10" />
               </div>
               <span className="text-sm text-text-muted">Facebook</span>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] rounded-full flex items-center justify-center mb-2">
-                <Instagram className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
+                <img src={instagramLogo} alt="Instagram" className="w-10 h-10" />
               </div>
               <span className="text-sm text-text-muted">Instagram</span>
             </div>
