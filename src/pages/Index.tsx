@@ -85,7 +85,7 @@ const Index = () => {
         description="Campanii publicitare Google Ads cu rezultate imediate și măsurabile."
         services={[
           "Crearea unui cont nou optimizat",
-          "Dezvoltarea a 4 campanii țintite",
+          "4 campanii țintite pentru 4 proceduri chirurgicale",
           "Optimizare continuă pentru performanță maximă",
           "Tracking detaliat și raportare transparentă",
           "Analiză competitivă pentru avantaj strategic",
