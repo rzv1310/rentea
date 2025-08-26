@@ -88,7 +88,7 @@ const Index = () => {
           "4 campanii țintite pentru 4 proceduri chirurgicale",
           "Optimizare continuă pentru performanță maximă",
           "Tracking detaliat și raportare transparentă",
-          "Analiză competitivă pentru avantaj strategic",
+          "Analiza competiției",
           "Copywriting persuasiv pentru rate de conversie ridicate"
         ]}
         price="2000 lei/lună"
