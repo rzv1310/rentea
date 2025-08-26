@@ -89,7 +89,7 @@ const Index = () => {
           "Optimizare continuă pentru performanță maximă",
           "Tracking detaliat și raportare transparentă",
           "Analiza competiției",
-          "Copywriting persuasiv pentru rate de conversie ridicate"
+          "Copywriting pentru rate de conversie ridicate"
         ]}
         price="2000 lei/lună"
         additionalInfo="+ buget Google recomandat: 200 lei/zi × 5 zile/săptămână"
