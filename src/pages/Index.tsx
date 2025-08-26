@@ -74,7 +74,7 @@ const Index = () => {
           "Poziționare în Top 3 Google Maps pentru căutări locale",
           "Top 3 rezultate Google pentru o procedură chirurgicală, la alegere"
         ]}
-        price="300 EUR/lună fiecare pachet"
+        price="3000 lei/lună"
         additionalInfo="Google Maps + Rezultate organice disponibile separat sau împreună"
         isDark={false}
       />
