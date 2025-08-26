@@ -57,7 +57,7 @@ const Index = () => {
         services={[
           "Crearea de imagini personalizate",
           "Creșterea numărului de followeri",
-          "Campanii promovate pe Facebook, Instagram și TikTok",
+          "Campanii de promovare pe Facebook, Instagram și TikTok",
           "Ședințe foto / video in clinică",
           "Bonus: tur virtual 360° al clinicii pentru o experiență inedită a pacientului"
         ]}
