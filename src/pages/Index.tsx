@@ -122,7 +122,7 @@ const Index = () => {
         additionalInfo={
           <div className="space-y-1">
             <div>Rezultat garantat până la 31 decembrie 2025.</div>
-            <div className="text-border-orange">Reducere 50% până la 31 decembrie 2025.</div>
+            <div className="text-border-orange font-[300] md:font-[200]">Reducere 50% până la 31 decembrie 2025.</div>
           </div>
         }
         isDark={false}
