@@ -1,5 +1,5 @@
 import { ServiceSection } from "@/components/ServiceSection";
-import heroImage from "@/assets/hero-marketing.jpg";
+import { Facebook, Instagram, Youtube, Search } from "lucide-react";
 
 const Index = () => {
   return (
@@ -7,12 +7,31 @@ const Index = () => {
       {/* Hero Section */}
       <section className="bg-section-light py-20 px-6">
         <div className="max-w-6xl mx-auto text-center">
-          <div className="mb-12">
-            <img 
-              src={heroImage} 
-              alt="Online Marketing pentru clinici medicale" 
-              className="w-full max-w-4xl mx-auto rounded-lg shadow-elegant"
-            />
+          <div className="mb-12 flex justify-center items-center space-x-8">
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 bg-[#1877f2] rounded-full flex items-center justify-center mb-2">
+                <Facebook className="w-8 h-8 text-white" />
+              </div>
+              <span className="text-sm text-text-muted">Facebook</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] rounded-full flex items-center justify-center mb-2">
+                <Instagram className="w-8 h-8 text-white" />
+              </div>
+              <span className="text-sm text-text-muted">Instagram</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 bg-[#000000] rounded-full flex items-center justify-center mb-2">
+                <Youtube className="w-8 h-8 text-white" />
+              </div>
+              <span className="text-sm text-text-muted">TikTok</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 bg-gradient-to-r from-[#4285f4] via-[#ea4335] via-[#fbbc05] to-[#34a853] rounded-full flex items-center justify-center mb-2">
+                <Search className="w-8 h-8 text-white" />
+              </div>
+              <span className="text-sm text-text-muted">Google</span>
+            </div>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold font-heading text-text-dark mb-8 leading-tight">
