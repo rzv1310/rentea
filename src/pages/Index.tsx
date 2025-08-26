@@ -84,7 +84,7 @@ const Index = () => {
             </a>
           </h1>
           
-          <p className="text-xl font-thin text-text-dark md:text-text-muted max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl font-[200] md:font-thin text-text-dark md:text-text-muted max-w-3xl mx-auto leading-relaxed">
             Marketing digital pentru clinici medicale. Creștem vizibilitatea și numărul de pacienți.
           </p>
         </div>
