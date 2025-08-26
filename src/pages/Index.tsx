@@ -98,7 +98,7 @@ const Index = () => {
           "Crearea de imagini personalizate",
           "Creșterea numărului de followeri",
           "Campanii de promovare pe Facebook, Instagram și TikTok",
-          "Ședințe foto / video in clinică",
+          "Ședințe foto / video in clinică + editare",
           "Bonus: tur virtual 360° al clinicii pentru o experiență inedită a pacientului"
         ]}
         price="2000 lei/lună"
