@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 interface ServiceSectionProps {
   title: string;
   description: string;
+  services?: string[];
   price: string;
   additionalInfo?: string;
   isDark?: boolean;
@@ -11,6 +12,7 @@ interface ServiceSectionProps {
 export const ServiceSection = ({ 
   title, 
   description, 
+  services,
   price, 
   additionalInfo, 
   isDark = false 
@@ -36,6 +38,21 @@ export const ServiceSection = ({
               }`}>
                 {description}
               </p>
+              
+              {services && (
+                <ul className="space-y-2">
+                  {services.map((service, index) => (
+                    <li key={index} className={`flex items-start text-lg font-thin leading-relaxed ${
+                      isDark ? 'text-text-muted-light' : 'text-text-muted'
+                    }`}>
+                      <span className={`mr-3 mt-1 ${
+                        isDark ? 'text-text-light' : 'text-text-dark'
+                      }`}>•</span>
+                      {service}
+                    </li>
+                  ))}
+                </ul>
+              )}
               
               <div className={`p-6 rounded-lg border ${
                 isDark ? 'border-border-dark' : 'border-border'
