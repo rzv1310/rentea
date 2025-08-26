@@ -8,35 +8,55 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* Clean medical brand colors */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
+    --foreground: 0 0% 15%;
+    
+    /* Hero and accent colors */
+    --primary: 210 100% 45%; /* Medical blue */
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 210 100% 92%;
+    
+    /* Section backgrounds */
+    --section-dark: 0 0% 8%; /* Deep black */
+    --section-light: 0 0% 98%; /* Clean white */
+    
+    /* Text colors */
+    --text-dark: 0 0% 15%;
+    --text-light: 0 0% 98%;
+    --text-muted: 0 0% 60%;
+    --text-muted-light: 0 0% 85%;
+    
+    /* Accent and highlights */
+    --accent: 160 100% 40%; /* Medical green */
+    --accent-foreground: 0 0% 100%;
+    --accent-light: 160 100% 95%;
+    
+    /* Cards and surfaces */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
+    --card-foreground: 0 0% 15%;
+    --card-dark: 0 0% 12%;
+    --card-dark-foreground: 0 0% 98%;
+    
+    /* Borders and inputs */
+    --border: 0 0% 90%;
+    --border-dark: 0 0% 20%;
+    --input: 0 0% 96%;
+    --ring: 210 100% 45%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(210 100% 45%), hsl(160 100% 40%));
+    --gradient-section: linear-gradient(180deg, hsl(0 0% 8%), hsl(0 0% 12%));
+    
+    /* Shadows */
+    --shadow-elegant: 0 20px 40px -10px hsl(210 100% 45% / 0.15);
+    --shadow-card: 0 4px 20px hsl(0 0% 0% / 0.08);
+    
+    /* Typography */
+    --font-heading: 'Inter', system-ui, sans-serif;
+    --font-body: 'Inter', system-ui, sans-serif;
+    
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
