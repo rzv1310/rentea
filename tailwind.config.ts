@@ -21,6 +21,7 @@ export default {
 			colors: {
 				border: 'hsl(var(--border))',
 				'border-dark': 'hsl(var(--border-dark))',
+				'border-orange': 'hsl(var(--border-orange))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',

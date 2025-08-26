@@ -41,6 +41,7 @@ All colors MUST be HSL.
     /* Borders and inputs */
     --border: 0 0% 90%;
     --border-dark: 0 0% 20%;
+    --border-orange: 25 95% 53%; /* Intense orange */
     --input: 0 0% 96%;
     --ring: 210 100% 45%;
     
