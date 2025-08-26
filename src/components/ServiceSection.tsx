@@ -29,15 +29,15 @@ export const ServiceSection = ({
             : 'bg-card text-card-foreground'
         }`}>
           <CardContent className="p-0">
-            <h2 className={`text-3xl md:text-4xl font-thin mb-6 ${
-              forceBlackText ? 'text-black' : (isDark ? 'text-text-light' : 'text-text-dark')
+            <h2 className={`text-3xl md:text-4xl mb-6 ${
+              forceBlackText ? 'font-[150] md:font-thin text-black' : 'font-thin ' + (isDark ? 'text-text-light' : 'text-text-dark')
             }`}>
               {title}
             </h2>
             
             <div className="space-y-6">
-              <p className={`text-lg font-thin leading-relaxed ${
-                forceBlackText ? 'text-black' : (isDark ? 'text-text-muted-light' : 'text-text-muted')
+              <p className={`text-lg leading-relaxed ${
+                forceBlackText ? 'font-[150] md:font-thin text-black' : 'font-thin ' + (isDark ? 'text-text-muted-light' : 'text-text-muted')
               }`}>
                 {description}
               </p>
@@ -45,8 +45,8 @@ export const ServiceSection = ({
               {services && (
                 <ul className="space-y-2">
                   {services.map((service, index) => (
-                    <li key={index} className={`flex items-start text-lg font-thin leading-relaxed ${
-                      forceBlackText ? 'text-black' : (isDark ? 'text-text-muted-light' : 'text-text-muted')
+                    <li key={index} className={`flex items-start text-lg leading-relaxed ${
+                      forceBlackText ? 'font-[150] md:font-thin text-black' : 'font-thin ' + (isDark ? 'text-text-muted-light' : 'text-text-muted')
                     }`}>
                       <span className={`mr-3 mt-1 ${
                         forceBlackText ? 'text-black' : (isDark ? 'text-text-light' : 'text-text-dark')
@@ -62,14 +62,14 @@ export const ServiceSection = ({
               <div className={`p-6 rounded-lg border ${
                 isDark ? 'border-border-dark' : 'border-border'
               }`}>
-                <div className={`text-2xl font-thin ${
-                  forceBlackText ? 'text-black' : (isDark ? 'text-text-light' : 'text-text-dark')
+                <div className={`text-2xl ${
+                  forceBlackText ? 'font-[150] md:font-thin text-black' : 'font-thin ' + (isDark ? 'text-text-light' : 'text-text-dark')
                 }`}>
                   {price}
                 </div>
                 {additionalInfo && (
-                  <div className={`text-sm font-thin mt-2 space-y-1 ${
-                    forceBlackText ? 'text-black' : (isDark ? 'text-text-muted-light' : 'text-text-muted')
+                  <div className={`text-sm mt-2 space-y-1 ${
+                    forceBlackText ? 'font-[150] md:font-thin text-black' : 'font-thin ' + (isDark ? 'text-text-muted-light' : 'text-text-muted')
                   }`}>
                     {typeof additionalInfo === 'string' ? (
                       additionalInfo.split('. ').map((line, index, array) => (
