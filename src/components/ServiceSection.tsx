@@ -1,11 +1,12 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { ReactNode } from "react";
 
 interface ServiceSectionProps {
   title: string;
   description: string;
   services?: string[];
   price: string;
-  additionalInfo?: string;
+  additionalInfo?: string | ReactNode;
   isDark?: boolean;
   forceBlackText?: boolean;
 }
@@ -70,11 +71,15 @@ export const ServiceSection = ({
                   <div className={`text-sm font-thin mt-2 space-y-1 ${
                     forceBlackText ? 'text-black' : (isDark ? 'text-text-muted-light' : 'text-text-muted')
                   }`}>
-                    {additionalInfo.split('. ').map((line, index, array) => (
-                      <div key={index}>
-                        {line}{index < array.length - 1 && !line.endsWith('.') ? '.' : ''}
-                      </div>
-                    ))}
+                    {typeof additionalInfo === 'string' ? (
+                      additionalInfo.split('. ').map((line, index, array) => (
+                        <div key={index}>
+                          {line}{index < array.length - 1 && !line.endsWith('.') ? '.' : ''}
+                        </div>
+                      ))
+                    ) : (
+                      additionalInfo
+                    )}
                   </div>
                 )}
               </div>
