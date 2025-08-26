@@ -35,7 +35,7 @@ const Index = () => {
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
                 <img src={facebookLogo} alt="Facebook" className="w-10 h-10" />
               </div>
-              <span className="text-sm font-thin text-text-muted">Facebook</span>
+              <span className="text-sm font-thin text-text-dark md:text-text-muted">Facebook</span>
             </a>
             <a 
               href="https://www.instagram.com/dr.rentea?igsh=MXVianRsemRxcXUxOA==" 
@@ -46,7 +46,7 @@ const Index = () => {
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
                 <img src={instagramLogo} alt="Instagram" className="w-10 h-10" />
               </div>
-              <span className="text-sm font-thin text-text-muted">Instagram</span>
+              <span className="text-sm font-thin text-text-dark md:text-text-muted">Instagram</span>
             </a>
             <a 
               href="https://www.tiktok.com/@renteaclinique" 
@@ -57,7 +57,7 @@ const Index = () => {
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
                 <img src="/lovable-uploads/7201f28d-0d62-46d7-8efd-3ea2bad73d01.png" alt="TikTok" className="w-10 h-10" />
               </div>
-              <span className="text-sm font-thin text-text-muted">TikTok</span>
+              <span className="text-sm font-thin text-text-dark md:text-text-muted">TikTok</span>
             </a>
             <a 
               href="https://maps.app.goo.gl/Fr8iZEoNxUnxxWKU8" 
@@ -68,7 +68,7 @@ const Index = () => {
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
                 <img src={googleLogo} alt="Google" className="w-10 h-10" />
               </div>
-              <span className="text-sm font-thin text-text-muted">Google</span>
+              <span className="text-sm font-thin text-text-dark md:text-text-muted">Google</span>
             </a>
           </div>
           
@@ -84,7 +84,7 @@ const Index = () => {
             </a>
           </h1>
           
-          <p className="text-xl font-thin text-text-muted max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl font-thin text-text-dark md:text-text-muted max-w-3xl mx-auto leading-relaxed">
             Marketing digital pentru clinici medicale. Creștem vizibilitatea și numărul de pacienți.
           </p>
         </div>
