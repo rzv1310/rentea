@@ -39,8 +39,8 @@ const Index = () => {
           
           <h1 className="text-4xl md:text-6xl font-bold font-heading text-text-dark mb-8 leading-tight">
             Oferta Online Marketing<br />
-            <span className="bg-gradient-hero bg-clip-text text-transparent">
-              RenteaClinique.ro
+            <span className="text-text-dark font-thin">
+              renteaclinique.ro
             </span>
           </h1>
           
