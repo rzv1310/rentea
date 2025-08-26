@@ -26,30 +26,50 @@ const Index = () => {
       <section className="bg-section-light py-20 px-6">
         <div className="max-w-6xl mx-auto text-center">
           <div className="mb-12 flex justify-center items-center space-x-8">
-            <div className="flex flex-col items-center">
+            <a 
+              href="https://www.facebook.com/people/RenteaClinique/61577687972178/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex flex-col items-center hover:opacity-80 transition-opacity"
+            >
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
                 <img src={facebookLogo} alt="Facebook" className="w-10 h-10" />
               </div>
               <span className="text-sm font-thin text-text-muted">Facebook</span>
-            </div>
-            <div className="flex flex-col items-center">
+            </a>
+            <a 
+              href="https://www.instagram.com/dr.rentea?igsh=MXVianRsemRxcXUxOA==" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex flex-col items-center hover:opacity-80 transition-opacity"
+            >
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
                 <img src={instagramLogo} alt="Instagram" className="w-10 h-10" />
               </div>
               <span className="text-sm font-thin text-text-muted">Instagram</span>
-            </div>
-            <div className="flex flex-col items-center">
+            </a>
+            <a 
+              href="https://www.tiktok.com/@renteaclinique" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex flex-col items-center hover:opacity-80 transition-opacity"
+            >
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
                 <img src="/lovable-uploads/7201f28d-0d62-46d7-8efd-3ea2bad73d01.png" alt="TikTok" className="w-10 h-10" />
               </div>
               <span className="text-sm font-thin text-text-muted">TikTok</span>
-            </div>
-            <div className="flex flex-col items-center">
+            </a>
+            <a 
+              href="https://maps.app.goo.gl/Fr8iZEoNxUnxxWKU8" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex flex-col items-center hover:opacity-80 transition-opacity"
+            >
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
                 <img src={googleLogo} alt="Google" className="w-10 h-10" />
               </div>
               <span className="text-sm font-thin text-text-muted">Google</span>
-            </div>
+            </a>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-thin text-text-dark mb-8 leading-tight">
