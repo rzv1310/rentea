@@ -82,7 +82,7 @@ const Index = () => {
       {/* Google Ads Section - Dark Background */}
       <ServiceSection
         title="Google ADS"
-        description="Campanii publicitare Google Ads profesionale pentru rezultate imediate și măsurabile."
+        description="Campanii publicitare Google Ads cu rezultate imediate și măsurabile."
         services={[
           "Crearea unui cont nou optimizat",
           "Dezvoltarea a 4 campanii țintite",
