@@ -69,7 +69,7 @@ export const ServiceSection = ({
                     isDark ? 'text-text-muted-light' : 'text-text-muted'
                   }`}>
                     {additionalInfo.split('\n').map((line, index) => (
-                      <div key={index}>{line}</div>
+                      <div key={index} className={index > 0 ? 'mt-1' : ''}>{line}</div>
                     ))}
                   </div>
                 )}
