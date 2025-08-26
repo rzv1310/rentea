@@ -28,25 +28,25 @@ const Index = () => {
           <div className="mb-12 flex justify-center items-center space-x-8">
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
-                <img src={facebookLogo} alt="Facebook" className="w-10 h-10" />
+                <img src={facebookLogo} alt="Facebook" className="w-10 h-10 brightness-0 saturate-100" style={{filter: 'invert(64%) sepia(80%) saturate(2000%) hue-rotate(15deg) brightness(100%) contrast(100%)'}} />
               </div>
               <span className="text-sm font-thin text-text-muted">Facebook</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
-                <img src={instagramLogo} alt="Instagram" className="w-10 h-10" />
+                <img src={instagramLogo} alt="Instagram" className="w-10 h-10 brightness-0 saturate-100" style={{filter: 'invert(64%) sepia(80%) saturate(2000%) hue-rotate(15deg) brightness(100%) contrast(100%)'}} />
               </div>
               <span className="text-sm font-thin text-text-muted">Instagram</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
-                <img src="/lovable-uploads/7201f28d-0d62-46d7-8efd-3ea2bad73d01.png" alt="TikTok" className="w-10 h-10" />
+                <img src="/lovable-uploads/7201f28d-0d62-46d7-8efd-3ea2bad73d01.png" alt="TikTok" className="w-10 h-10 brightness-0 saturate-100" style={{filter: 'invert(64%) sepia(80%) saturate(2000%) hue-rotate(15deg) brightness(100%) contrast(100%)'}} />
               </div>
               <span className="text-sm font-thin text-text-muted">TikTok</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-2 shadow-lg">
-                <img src={googleLogo} alt="Google" className="w-10 h-10" />
+                <img src={googleLogo} alt="Google" className="w-10 h-10 brightness-0 saturate-100" style={{filter: 'invert(64%) sepia(80%) saturate(2000%) hue-rotate(15deg) brightness(100%) contrast(100%)'}} />
               </div>
               <span className="text-sm font-thin text-text-muted">Google</span>
             </div>
